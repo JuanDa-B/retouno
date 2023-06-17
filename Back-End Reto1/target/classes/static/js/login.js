@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#email").focus();
 });
 
-var endpoint = "http://localhost:8085/api/user/";
+var endpoint = "http://localhost:8080/api/user/";
 
 function login() {
   let email = $("#email").val();

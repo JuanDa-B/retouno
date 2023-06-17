@@ -2,7 +2,7 @@ $(document).ready(function () {
   $("#Id").focus();
 });
 
-var endpoint = "http://localhost:8085/api/user";
+var endpoint = "http://localhost:8080/api/user";
 
 function newUser() {
   let user = {
